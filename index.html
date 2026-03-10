@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="por">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu site</title>
+     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css"
+   
+</head>
+
+<body>
+
+    <div class="container"></div>
+  <header>
+    <h1>Meu site</h1>
+
+  </header>
+
+  <nav>
+
+   <a href="#">Home</a>
+   <a href="#">Sobre</a>
+   <a href="">Contato</a>
+  </nav>
+
+<main>
+
+  <section>
+    <h2>Sejam bem vindos!</h2>
+    <p> Esse é um exemplo de site com Html e Css.</p>
+    </section>
+
+    <section>
+      <h2>Sobre mim</h2>
+      <p>Site Criado para praticar desenvolvimento Web.</p>
+    </section>
+
+    <section>
+      <h2>Contato</h2>
+      <p>Email: rodrigogoncalves49702@gmail.com</p>
+    </section>
+
+    <section class="projetos">
+      <h2>Projetos</h2>
+
+      <div class="cards">
+
+        <div class="card">
+          <div class="img-container">
+            <img src="imagens/projeto1.png" alt="projeto01"> 
+            <div class="overlay">Ver imagem 🔍</div>
+          </div>
+          <h3>Projeto 1</h3>
+          <p>Primeiro projeto de estudo em HTML e CSS.</p>
+        </div>
+
+        <div class="card">
+          <div class="img-container">
+            <img src="imagens/projeto2.jpg" alt="projeto2"> 
+            <div class="overlay">Ver imagem 🔍</div>
+        </div>
+          <h3>Projeto 2</h3>
+          <p>Página criada para praticar a estrutura de um site.</p>
+        </div>
+
+      <div class="card">
+         <div class="img-container">
+          <img src="imagens/projeto3.jpg" alt="projeto3"> 
+          <div class="overlay">Ver imagem 🔍</div>
+      </div>
+        <h3>Projeto 3</h3>
+      <p>Experimentos com Layout e estilização.</p>
+      </div>
+
+      </div>
+    </section>
+
+    </main>
+
+    <footer>2026 - Projeto em desenvolvimento</footer>
+
+    </div>
+
+    <div id="lightbox">
+      <span id="fechar">&times;</span>
+      <img id="lightbox-img">
+    </div>
+
+    <script>
+
+const imagens = document.querySelectorAll(".card img")
+const lightbox = document.getElementById("lightbox")
+const lightboxImg = document.getElementById("lightbox-img")
+const fechar = document.getElementById("fechar")
+
+imagens.forEach(img => {
+img.addEventListener("click", () => {
+lightbox.style.display = "flex"
+lightboxImg.src = img.src
+})
+})
+
+fechar.addEventListener("click", () => {
+lightbox.style.display = "none"
+})
+
+lightbox.addEventListener("click", () => {
+lightbox.style.display = "none"
+})
+
+</script>
+</body>
+</html>
