@@ -404,27 +404,23 @@ section a:hover {
 @media (max-width: 768px){
 
   .hero{
-        padding: 40px 20px;
+        padding: 24px 14px;
     }
 
     .hero-conteudo{
-        flex-direction: column-reverse;
-        text-align: center;
-        gap: 30px;
+        gap: 16px;
     }
 
     .hero-texto h1{
-        font-size: 34px;
-        margin-bottom: 8px;
-        line-height: 1.1;
+        font-size: 30px;
+        
 
     }
 
     .hero-texto p{
-        font-size: 16px;
-        line-height: 1.5;
-        margin-right: 18px;
-    }
+        font-size: 15px;
+        margin-bottom: 15px;
+       
 
     .hero-botoes{
         justify-content: center;
@@ -432,15 +428,14 @@ section a:hover {
     }
 
     .hero-foto {
-        width: 180px;
-        height: 180px;
-        margin: 0 auto;
-
+        width: 160px;
+        height: 160px;
+      
     }
 
     .hero-foto img{
-        width: 125%;
-        height: 125%;
+        width: 150%;
+        height: 150%;
     }
 
 
@@ -449,7 +444,7 @@ section a:hover {
     }
 
     .btn {
-        padding: 10px 18px;
-        font-size: 16px;
+        padding: 9px 16px;
+        font-size: 15px;
     }
 }
