@@ -409,28 +409,25 @@ section a:hover {
 
     .hero-conteudo{
         gap: 16px;
-        flex-direction: column;
     }
 
     .hero-texto h1{
-        order: 2;
         font-size: 30px;
         
 
     }
 
-    .hero-texto p{
+    .hero-texto p {
         font-size: 15px;
         margin-bottom: 15px;
-    }
-
+        {
+       
     .hero-botoes{
         justify-content: center;
         gap: 12px;
     }
 
     .hero-foto {
-        order: 1;
         width: 160px;
         height: 160px;
       
