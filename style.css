@@ -408,7 +408,7 @@ section a:hover {
     }
 
     .hero-conteudo{
-        gap: 16px
+        gap: 16px;
         flex-direction: column;
     }
 
