@@ -451,6 +451,7 @@ section a:hover {
     }
 
     .btn {
+        justify-content: center;
         padding: 9px 16px;
         font-size: 15px;
     }
