@@ -412,6 +412,7 @@ section a:hover {
     }
 
     .hero-texto h1{
+        order: 2;
         font-size: 30px;
         
 
@@ -428,6 +429,7 @@ section a:hover {
     }
 
     .hero-foto {
+        order: 1;
         width: 160px;
         height: 160px;
       
