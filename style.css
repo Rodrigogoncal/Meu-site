@@ -408,7 +408,7 @@ section a:hover {
     }
 
     .hero-conteudo{
-        gap: 16px;
+        flex-direction: column;
     }
 
     .hero-texto h1{
@@ -420,7 +420,7 @@ section a:hover {
     .hero-texto p{
         font-size: 15px;
         margin-bottom: 15px;
-       
+    }
 
     .hero-botoes{
         justify-content: center;
