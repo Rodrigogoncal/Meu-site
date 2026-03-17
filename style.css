@@ -410,6 +410,7 @@ section a:hover {
     .hero-conteudo{
        display: flex;
         flex-direction: column;
+        text-align: center;
         gap: 16px;
     }
 
@@ -430,6 +431,7 @@ section a:hover {
     }
 
     .hero-foto {
+        order: 1;
         width: 160px;
         height: 160px;
       
