@@ -414,10 +414,13 @@ section a:hover {
         gap: 16px;
     }
 
+    .hero-texto {
+        order: 2;
+    }
+
     .hero-texto h1{
         font-size: 30px;
-        
-
+    
     }
 
     .hero-texto p {
