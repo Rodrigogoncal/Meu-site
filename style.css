@@ -462,24 +462,31 @@ section a:hover {
         z-index: 11;
     }
 
-    .hero-foto {
-        order: 1;
-        position: static;
-        transform: none;
-        margin: 0 auto;
-        width: 180px;
-        height: 180px;
-        overflow: hidden;
-        position: relative;
-        z-index: 1;
- 
-      
-    }
+   .hero-foto{
+    order: 1;
+    position: relative;
+    right: auto;
+    top: auto;
+    left: auto;
+    transform: none;
+    margin: 0 auto;
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+}
+
 
     .hero-foto img{
-        width: 230%;
-        height: 230%;
+        width: 220%;
+        height: 220%;
         object-fit: cover;
+        transform: scale(1.8px);
+        object-position: center 20%;
     }
 
     .cards {
